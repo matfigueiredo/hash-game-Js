@@ -288,7 +288,7 @@ function botPlay() {
 
     }
 
-    if (counter == 0 && filled) {
+    if (counter == 0 && filled < 9) {
         botPlay();
     }
 
